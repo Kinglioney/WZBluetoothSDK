@@ -1,0 +1,6 @@
+framework module WZBluetoothSDK {
+  umbrella header "WZBluetoothSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

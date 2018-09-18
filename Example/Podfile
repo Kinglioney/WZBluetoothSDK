@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WZBluetoothSDK_Tests' do
+  pod 'WZBluetoothSDK', :path => '../'
+  
+  
+end

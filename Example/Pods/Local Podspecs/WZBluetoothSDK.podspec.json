@@ -1,0 +1,22 @@
+{
+  "name": "WZBluetoothSDK",
+  "version": "0.1.0",
+  "summary": "A short description of WZBluetoothSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kinglioney/WZBluetoothSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kinglioney": "wangyu@we-smart.cn"
+  },
+  "source": {
+    "git": "https://github.com/Kinglioney/WZBluetoothSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WZBluetoothSDK/Classes/**/*"
+}

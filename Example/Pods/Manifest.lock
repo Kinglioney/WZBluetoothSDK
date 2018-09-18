@@ -1,0 +1,16 @@
+PODS:
+  - WZBluetoothSDK (0.1.0)
+
+DEPENDENCIES:
+  - WZBluetoothSDK (from `../`)
+
+EXTERNAL SOURCES:
+  WZBluetoothSDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WZBluetoothSDK: 524690328f3b7371d5406e19be62a70e04723d2a
+
+PODFILE CHECKSUM: 8be612a30191861358f749b45c68c5b1efabe9f6
+
+COCOAPODS: 1.4.0

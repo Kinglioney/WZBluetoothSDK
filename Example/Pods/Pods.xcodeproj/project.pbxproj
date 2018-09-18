@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C0ED09DD0FF6070C5A6CCA0F823F3D /* Pods-WZBluetoothSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E66F6044D78DE40AAE06014DB3E5844 /* Pods-WZBluetoothSDK_Tests-dummy.m */; };
+		695E65AAC80C7C88A6DD091651FCB36E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B03A1724048D054E2D9A939335A8596A /* ReplaceMe.m */; };
+		6A54C0D845F283B5F11039ADEA8F851F /* WZBluetoothSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C748E114A31D7CF4781C0CC78E2B4470 /* WZBluetoothSDK-dummy.m */; };
+		70A661B0904B208B9703E66CA425EEAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9910004F0E8A2DB119FD68B2DA3F8F56 /* WZBluetoothSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC8876B1D22CB2941BB2B04EB23212B /* WZBluetoothSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC374C37C9263C11B10F8B34196C2AF /* Pods-WZBluetoothSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC70673D88185C36F16B635D1A22F5C4 /* Pods-WZBluetoothSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7F311402749BC67505DF2078B1ADA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3DCF57F61A8B0B890B226375076559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BB8C623F9FFD5F56D2B7F2D923DF0B;
+			remoteInfo = WZBluetoothSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04831C276D56EC9CC3CECE7B428BE6BB /* WZBluetoothSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZBluetoothSDK-prefix.pch"; sourceTree = "<group>"; };
+		127CC4054AD19089A861FCC1D30AB627 /* Pods-WZBluetoothSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZBluetoothSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		12E0E98CFC62A56BD0588E7638A15187 /* Pods-WZBluetoothSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZBluetoothSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		12F5986A8C1FDE8A9747137A6B3EF1A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139C3C7DA91F92CC73C48A9B5F55854F /* Pods_WZBluetoothSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZBluetoothSDK_Tests.framework; path = "Pods-WZBluetoothSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D21C24C9B7D8AC40D613BEF7B4EBE07 /* Pods-WZBluetoothSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZBluetoothSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B20E77892100C22569261D995E8452D /* Pods-WZBluetoothSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZBluetoothSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E66F6044D78DE40AAE06014DB3E5844 /* Pods-WZBluetoothSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZBluetoothSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		3126DCD8DCFF5C62E1691FB96AD8CC76 /* WZBluetoothSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WZBluetoothSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		43F11FB21089959C4DFDE3DBAB640DD0 /* Pods-WZBluetoothSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZBluetoothSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		4EA2DA9A6D3B2DC8E139C046E688C027 /* WZBluetoothSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZBluetoothSDK.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6BC8876B1D22CB2941BB2B04EB23212B /* WZBluetoothSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZBluetoothSDK-umbrella.h"; sourceTree = "<group>"; };
+		754569A5A4B9EA95F5BC56242EE02E99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B0292CF3AACC625BCFCC8A1F5029C14 /* WZBluetoothSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZBluetoothSDK.xcconfig; sourceTree = "<group>"; };
+		9BC76AA73BED80D28A1E23C373FCF7F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF1712D62ABF8108961910FD47E6177 /* Pods-WZBluetoothSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZBluetoothSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B03A1724048D054E2D9A939335A8596A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WZBluetoothSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B7B94C76F47BAD521DB5E3140A13F877 /* WZBluetoothSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZBluetoothSDK.framework; path = WZBluetoothSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C748E114A31D7CF4781C0CC78E2B4470 /* WZBluetoothSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZBluetoothSDK-dummy.m"; sourceTree = "<group>"; };
+		CC70673D88185C36F16B635D1A22F5C4 /* Pods-WZBluetoothSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZBluetoothSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E271BD28852D59A401E3382D64AA827D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E4155CF88ACAC7E83DD798977AA1D29E /* Pods-WZBluetoothSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZBluetoothSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EA362E78B50379105C5E37706780F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A661B0904B208B9703E66CA425EEAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E8061EB013561419C33B81A3DE560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7F311402749BC67505DF2078B1ADA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		472D00B78D922B1F4BB4802BE83622D8 /* WZBluetoothSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B03A1724048D054E2D9A939335A8596A /* ReplaceMe.m */,
+				A078283FD82CE462FBCB3CBC9FCFBC06 /* Pod */,
+				8D389BD4191906D2C5BD82F98F3CC460 /* Support Files */,
+			);
+			name = WZBluetoothSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D492FB285A046E8CAA7D50C5B8F148D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F1DB6B5743B0DBBFD6213ABD1EBC2 /* Pods-WZBluetoothSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6FFC9D4446FC8189365BD01C1AFF4270 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				472D00B78D922B1F4BB4802BE83622D8 /* WZBluetoothSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6FFC9D4446FC8189365BD01C1AFF4270 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2C82383CD9B23DB1BC9C2591ED1822E /* Products */,
+				6D492FB285A046E8CAA7D50C5B8F148D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D389BD4191906D2C5BD82F98F3CC460 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F5986A8C1FDE8A9747137A6B3EF1A8 /* Info.plist */,
+				4EA2DA9A6D3B2DC8E139C046E688C027 /* WZBluetoothSDK.modulemap */,
+				9B0292CF3AACC625BCFCC8A1F5029C14 /* WZBluetoothSDK.xcconfig */,
+				C748E114A31D7CF4781C0CC78E2B4470 /* WZBluetoothSDK-dummy.m */,
+				04831C276D56EC9CC3CECE7B428BE6BB /* WZBluetoothSDK-prefix.pch */,
+				6BC8876B1D22CB2941BB2B04EB23212B /* WZBluetoothSDK-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZBluetoothSDK";
+			sourceTree = "<group>";
+		};
+		A078283FD82CE462FBCB3CBC9FCFBC06 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E271BD28852D59A401E3382D64AA827D /* LICENSE */,
+				754569A5A4B9EA95F5BC56242EE02E99 /* README.md */,
+				3126DCD8DCFF5C62E1691FB96AD8CC76 /* WZBluetoothSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B2C82383CD9B23DB1BC9C2591ED1822E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139C3C7DA91F92CC73C48A9B5F55854F /* Pods_WZBluetoothSDK_Tests.framework */,
+				B7B94C76F47BAD521DB5E3140A13F877 /* WZBluetoothSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC8F1DB6B5743B0DBBFD6213ABD1EBC2 /* Pods-WZBluetoothSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC76AA73BED80D28A1E23C373FCF7F9 /* Info.plist */,
+				127CC4054AD19089A861FCC1D30AB627 /* Pods-WZBluetoothSDK_Tests.modulemap */,
+				2B20E77892100C22569261D995E8452D /* Pods-WZBluetoothSDK_Tests-acknowledgements.markdown */,
+				9FF1712D62ABF8108961910FD47E6177 /* Pods-WZBluetoothSDK_Tests-acknowledgements.plist */,
+				2E66F6044D78DE40AAE06014DB3E5844 /* Pods-WZBluetoothSDK_Tests-dummy.m */,
+				12E0E98CFC62A56BD0588E7638A15187 /* Pods-WZBluetoothSDK_Tests-frameworks.sh */,
+				43F11FB21089959C4DFDE3DBAB640DD0 /* Pods-WZBluetoothSDK_Tests-resources.sh */,
+				CC70673D88185C36F16B635D1A22F5C4 /* Pods-WZBluetoothSDK_Tests-umbrella.h */,
+				1D21C24C9B7D8AC40D613BEF7B4EBE07 /* Pods-WZBluetoothSDK_Tests.debug.xcconfig */,
+				E4155CF88ACAC7E83DD798977AA1D29E /* Pods-WZBluetoothSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-WZBluetoothSDK_Tests";
+			path = "Target Support Files/Pods-WZBluetoothSDK_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B0A3FD49BDD38430ADA2BD645B042B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC374C37C9263C11B10F8B34196C2AF /* Pods-WZBluetoothSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A406C75E87E3BE75BEADF1C2397396B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9910004F0E8A2DB119FD68B2DA3F8F56 /* WZBluetoothSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03DC332E6B33C2421D5A006FBECD7936 /* Pods-WZBluetoothSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010EE0CC14FCCF8B6DE1FB3BE367CA95 /* Build configuration list for PBXNativeTarget "Pods-WZBluetoothSDK_Tests" */;
+			buildPhases = (
+				093D9F249F849537B683FA080847B738 /* Sources */,
+				6EA362E78B50379105C5E37706780F53 /* Frameworks */,
+				0B0A3FD49BDD38430ADA2BD645B042B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5FF28298F31FC5CFD4249B41848C79 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZBluetoothSDK_Tests";
+			productName = "Pods-WZBluetoothSDK_Tests";
+			productReference = 139C3C7DA91F92CC73C48A9B5F55854F /* Pods_WZBluetoothSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		05BB8C623F9FFD5F56D2B7F2D923DF0B /* WZBluetoothSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405BF58C1E18EFE04FA77A26D68BD08A /* Build configuration list for PBXNativeTarget "WZBluetoothSDK" */;
+			buildPhases = (
+				0F25CA934798737C266545F31E39E7DF /* Sources */,
+				86E8061EB013561419C33B81A3DE560D /* Frameworks */,
+				A406C75E87E3BE75BEADF1C2397396B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZBluetoothSDK;
+			productName = WZBluetoothSDK;
+			productReference = B7B94C76F47BAD521DB5E3140A13F877 /* WZBluetoothSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B2C82383CD9B23DB1BC9C2591ED1822E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DC332E6B33C2421D5A006FBECD7936 /* Pods-WZBluetoothSDK_Tests */,
+				05BB8C623F9FFD5F56D2B7F2D923DF0B /* WZBluetoothSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093D9F249F849537B683FA080847B738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C0ED09DD0FF6070C5A6CCA0F823F3D /* Pods-WZBluetoothSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F25CA934798737C266545F31E39E7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695E65AAC80C7C88A6DD091651FCB36E /* ReplaceMe.m in Sources */,
+				6A54C0D845F283B5F11039ADEA8F851F /* WZBluetoothSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC5FF28298F31FC5CFD4249B41848C79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WZBluetoothSDK;
+			target = 05BB8C623F9FFD5F56D2B7F2D923DF0B /* WZBluetoothSDK */;
+			targetProxy = 7F3DCF57F61A8B0B890B226375076559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3705699F10167EC178FD786AA6BB519A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0292CF3AACC625BCFCC8A1F5029C14 /* WZBluetoothSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZBluetoothSDK/WZBluetoothSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZBluetoothSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZBluetoothSDK/WZBluetoothSDK.modulemap";
+				PRODUCT_NAME = WZBluetoothSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		494330FD560AF3C6C0DDA29280EBE2DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0292CF3AACC625BCFCC8A1F5029C14 /* WZBluetoothSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZBluetoothSDK/WZBluetoothSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZBluetoothSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WZBluetoothSDK/WZBluetoothSDK.modulemap";
+				PRODUCT_NAME = WZBluetoothSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C755ED111E26BB4FF1F1AC9FC63CB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4155CF88ACAC7E83DD798977AA1D29E /* Pods-WZBluetoothSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZBluetoothSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZBluetoothSDK_Tests/Pods-WZBluetoothSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WZBluetoothSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A34DF899EC0C2E34A6661100E01BD9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D21C24C9B7D8AC40D613BEF7B4EBE07 /* Pods-WZBluetoothSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZBluetoothSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZBluetoothSDK_Tests/Pods-WZBluetoothSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WZBluetoothSDK_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010EE0CC14FCCF8B6DE1FB3BE367CA95 /* Build configuration list for PBXNativeTarget "Pods-WZBluetoothSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34DF899EC0C2E34A6661100E01BD9C8 /* Debug */,
+				4C755ED111E26BB4FF1F1AC9FC63CB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405BF58C1E18EFE04FA77A26D68BD08A /* Build configuration list for PBXNativeTarget "WZBluetoothSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494330FD560AF3C6C0DDA29280EBE2DD /* Debug */,
+				3705699F10167EC178FD786AA6BB519A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

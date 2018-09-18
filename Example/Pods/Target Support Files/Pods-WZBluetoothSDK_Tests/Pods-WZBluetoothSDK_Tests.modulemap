@@ -1,0 +1,6 @@
+framework module Pods_WZBluetoothSDK_Tests {
+  umbrella header "Pods-WZBluetoothSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
